@@ -81,7 +81,7 @@ class App extends React.Component {
 						{
 							!!image &&
 							<Div style={{ textAlign: 'center' }}>
-                                <img src={ image } alt="remote file" referrerPolicy="no-referrer" />
+                                <img src={ image } alt="remote file" />
 							</Div>
 						}
                     </Group>
